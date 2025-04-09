@@ -1,41 +1,37 @@
-# 📊 Proposals and Awards – Tableau Dashboard
+# 📊 Sales Performance – Tableau Dashboard
 
-This Tableau dashboard provides a comprehensive overview of project proposals and awards across various departments or teams. It is designed to help decision-makers quickly identify trends, performance, and progress in proposal submissions and awarded projects.
-Also, It tells skills of making different type of charts particularly radial chart with data densification using bin & index().
----
-
-## 🧩 Key Features
-
-- 📌 Visual comparison of proposals submitted vs. proposals awarded
-- 📈 Trend analysis over time
-- 🗂️ Department-wise breakdown
-- 🎯 KPI indicators to track performance
-- ✅ Interactive filters for dynamic analysis
+This project showcases a **Tableau Public dashboard** analyzing sales performance across various dimensions such as year, customer age group, city, category, gender, and KPIs like max delivery days, discount, and sales.
 
 ---
 
-## 📂 Data Source
+## 🔍 Dashboard Insights
 
-The data is derived from internal project submission records, including:
-- Number of proposals submitted
-- Number of projects awarded
-- Timeline (months/quarters)
-- Department or business unit
+The dashboard provides a comprehensive view of sales performance:
+
+- **Year-wise Sales**: Total sales from 2022 to 2025, showing trends and growth.
+- **Age-wise Sales**: Binned analysis of customer age and their contribution to total sales.
+- **City-wise Sales**: Top cities by sales, helping identify location-based trends.
+- **Category-wise Sales**: Distribution across categories like Clothing, Books, Sports, etc.
+- **Gender-wise Sales**: Sales split between male and female customers.
+- **KPIs Displayed**:
+  - 📦 Max Delivery Days
+  - 💸 Max Discount Given
+  - 📈 Maximum Sale (Order-wise)
 
 ---
 
 ## 🛠️ Tools Used
 
-- **Tableau Public** for data visualization
-- **Excel** as the data source
+- **Tableau Public Desktop**
+- **Data Source**: Cleaned sales transaction dataset with fields like:
+  - `Order Date`, `Customer Age`, `Gender`, `Category`, `City`, `Sales Amount`, `Discount`, `Delivery Days`
 
----
 
-## 📎 File Details
 
-- `Proposals and Awards...revised.twbx` – Tableau Packaged Workbook file (includes data + visualizations)
+## 📁 Files Included
 
-## 📬 Contact
+- `Sales_Performance_Dashboard.twbx` – Tableau packaged workbook
+- `README.md` – This file
 
-For questions or suggestions, feel free to connect with me via [GitHub](https://github.com/visbat55).
+
 
