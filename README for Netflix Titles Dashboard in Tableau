@@ -1,0 +1,52 @@
+# 📺 Netflix Titles Dashboard in Tableau
+
+This Tableau project provides interactive visual insights into the Netflix content library. It is built on a dataset of movies and TV shows available on Netflix and showcases trends related to content type, genres, release years, and more.
+
+## 📌 Project Title
+
+**Netflix Titles Analysis using Tableau**
+
+## 📁 File
+
+- `YTP4(Netflix).twbx`: Tableau Packaged Workbook containing all the dashboards and visual analyses.
+
+## 📊 Key Dashboards & Insights
+
+- **Year-wise Content Release**: Visualizes how Netflix’s content library has evolved over the years.
+- **Movie vs TV Show Distribution**: Understand the split between movies and TV shows on Netflix.
+- **Genre Distribution**: Identifies top genres like Drama, Comedy, and Documentary.
+- **Country-wise Content**: Shows where Netflix is sourcing the majority of its content from.
+- **Rating Analysis**: Highlights the diversity of content based on audience ratings (PG, R, TV-MA, etc.).
+
+## 📚 Dataset
+
+Data Source: [Netflix Titles Dataset on Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+
+The dataset contains:
+- Title
+- Type (Movie/TV Show)
+- Director
+- Cast
+- Country
+- Date Added
+- Release Year
+- Rating
+- Duration
+- Genre (Listed In)
+
+## 🔧 Tools Used
+
+- **Tableau Public**
+- Data Source: CSV from Kaggle
+
+## 🚀 How to Use
+
+1. Download `YTP4(Netflix).twbx`.
+2. Open the file in Tableau Public Desktop.
+3. Explore each dashboard interactively to gain insights into Netflix’s content trends.
+
+## 🎯 Objectives
+
+- Identify Netflix's content growth over time.
+- Analyze the distribution of content types and genres.
+- Explore content diversity by country and ratings.
